@@ -17,18 +17,18 @@ const ChannelData = require('./models/Channel.js');
 client.config = global.config = {
     prefix: "!",
 
-    status: "dnd",
+    status: "online",
     color: "RANDOM",
-    footer: " ❤️ Fayikcim", 
-    botdurum: " ❤️ Fayikcim",
-    owners: ["622808887728406539" , ""],
+    footer: "Wolyo was here?", 
+    botdurum: "Wéx ❤ Wolyo",
+    owners: ["810161653756198933"],
 
-    guild: "",
-    logChannel: "", 
-    voiceChannel: "",
+    guild: "890269188348866570",
+    logChannel: "891358843219615836", 
+    voiceChannel: "891361692653617172",
 
-    token: "",
-    mongourl: "",
+    token: "ODY5NTUyOTcyODM5OTMxOTI0.YP_4UA.j3fbjhcwpM8ci7S_QhdyULk2N2E",
+    mongourl: "mongodb+srv://thewolyoxd:thewolyoxd@thewolyoxd.u92ds.mongodb.net/thewolyoxd?retryWrites=true&w=majority",
 };
 
 mongoose.connect( global.config.mongourl , { useNewUrlParser: true, useUnifiedTopology: true }, (err, db) => {
